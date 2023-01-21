@@ -1,0 +1,51 @@
+/*------- General Color -------*/
+$bg-blue: #231c6f;
+$dark-blue: #29217e;
+$light-blue: #2f268e;
+
+/*------- Text Color -------*/
+$orange-color: #d94934;
+$white-color: #ffffff;
+$grey-color: #d3d2e2;
+
+/*------- Home Gradient Color -------*/
+$orange: #a13243;
+$purple: #5a35c0;
+$sky: #1a6999;
+$dark: #312382;
+
+/*------- Border Color -------*/
+$border-dark: #6a6795;
+
+/*------- Token Graph Color -------*/
+$light-green: #73cf1b;
+$dark-green: #03bc95;
+$dark-grey: #4b72a4;
+$dark-purple: #4c52a6;
+$dull-blue: #1592b9;
+
+/*------- Token Page Counter -------*/
+$coins-progress-purple: #4940ad;
+
+/*------- Social icon bg Color -------*/
+$fb-color: #1773ea;
+$twit-color: #02abe8;
+$insta-color: #b6338f;
+$pinterest-color: #bd412f;
+
+/*------- Form Message Color -------*/
+$green-color: #33c741;
+
+/*------- Border Radius -------*/
+$border-radius-2: 2px;
+$border-radius-6: 6px;
+$border-radius-12: 12px;
+$border-radius-20: 20px;
+$border-radius-40: 40px;
+$border-radius-100: 100%;
+
+/*------- Font Include -------*/
+$poppins: 'Poppins', sans-serif;
+
+@import "include/general";
+@import "include/responsive";

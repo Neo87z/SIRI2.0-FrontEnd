@@ -1,0 +1,115 @@
+
+
+@media (max-width: 1199px) {  
+
+    /*------- General Style -------*/
+    .order-lg_1{
+       order: 1;
+    }
+
+    .order-lg_2{
+        order: 2;
+    }
+
+    .order-lg_3{
+        order: 3;
+    }
+
+   /*------- Header Style -------*/
+   .header {
+        .nav-menu{
+            > ul{
+                > li{
+                    padding: 0px 15px;
+                }
+            }
+        }
+    }
+
+    /*------- Spacer Style -------*/
+    .pt-200 {
+        padding-top: 120px;
+    }
+    
+    .pb-200 {
+        padding-bottom: 120px;
+    }
+    
+    .ptb-200 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .pb-160 {
+        padding-bottom: 80px;
+    }
+    
+    /*------- Best Feature -------*/
+    .feature-box-main{
+        padding: 35px;
+        min-height: 315px;
+
+        .feature-title{
+            font-size: 24px;
+        }
+
+        .feature-content{
+            padding-top: 30px;
+        }
+    }
+
+    /*------- Our Team Page -------*/
+    .team-part-main{
+        padding-bottom: 50px;
+    }
+
+    /*------- Token Sale Page -------*/
+    .token-sale-main{
+        .token-sale-counter{
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+        }
+    }
+
+    .token-distribution{
+        .token-graph-box{
+            max-width: 600px;
+            margin: auto;
+
+            &.token-graph-1{
+                padding-bottom: 40px;
+            }
+        }
+    }
+
+    /*------- Sign in Page -------*/
+    .sign-in-form{
+        height: auto;
+        overflow-y: hidden;
+        
+        .form-left-bg{
+            position: static;
+            min-height: 400px;
+        }
+
+        .d-flex{
+            justify-content: center;
+        }
+
+        .form-box{
+            padding: 60px 30px 60px 30px;
+            max-width: 600px;
+
+            .form-title{
+                font-size: 30px;
+                line-height: 40px;
+            }
+
+            .login-form{
+                padding-top: 26px;
+            }
+        }
+    }
+}

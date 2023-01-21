@@ -1,0 +1,87 @@
+
+@media (max-width: 1299px) {  
+
+    /*------- General Style -------*/
+    .container{
+        padding: 0px 40px;
+    }
+
+    /*------- Headings Style -------*/
+    h1{
+        font-size: 86px;
+        line-height: 94px;
+    }
+
+    h2 {
+        font-size: 64px;
+        line-height: 75px;
+    }
+
+    /*------- Spacer Style -------*/
+    .pt-90{
+        padding-top: 70px;
+    }
+
+    /*------- Pattern Style -------*/
+    .pattern-1,.pattern-2{
+        max-width: 165px;
+
+        &.w-100{
+            max-width: 100%;
+        }
+
+        &.line-pattern{
+            max-width: 400px;
+        }
+    }
+
+    /*------- Home Banner -------*/
+    .home-banner{
+        padding-top: 200px;
+        padding-bottom: 200px;
+
+        .banner-des{
+            padding: 30px 0px 40px 0px;
+        }
+    }
+
+    /*------- Heading Part -------*/
+    .heading-part{
+        padding-bottom: 70px;
+
+        p{
+            padding-top: 24px;
+        }
+    }
+
+    /*------- Subpage Banner -------*/
+    .subpage-banner{
+        padding-top: 220px;
+        padding-bottom: 150px;
+    
+        .subpage-content{
+            .subpage-title{
+                font-size: 75px;
+                line-height: 90px;
+            }
+    
+            .subpage-des{
+                padding-top: 20px;
+                font-size: 20px;
+            }
+        }
+    }
+
+    /*------- 404 Banner -------*/
+    .error-page{
+        padding-top: 200px;
+    
+        .error-content{
+            .error-title{
+                font-size: 75px;
+                line-height: 90px;
+                padding-bottom: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,344 @@
+
+@media (max-width: 1024px) { 
+
+    /*------- General Style -------*/
+    .owl-carousel{
+        .owl-nav{
+            padding-top: 50px;
+        }
+    }
+
+    /*------- Pattern Style -------*/
+    .delay-1{
+        animation-delay: 0s;
+    }
+    
+    .delay-2{
+        animation-delay: 0s;
+    }
+    
+    .delay-3{
+        animation-delay: 0s;
+    }
+
+    /*------- Header Style -------*/
+    .header{
+        padding: 20px 0px;
+
+        .main-menu{
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 71px;
+            height: calc(100vh - 71px);
+            display: block;
+            text-align: left;
+            padding: 20px 40px 40px 40px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            display: none;
+            background-color: $dark-blue;
+            z-index: 99;
+            transition: top 400ms ease;
+            
+            .sign-in{
+                margin-left: 0px;
+
+                .btn-small{
+                    padding: 11px 0px;
+                    background-color: transparent;
+                    border: 0px;
+
+                    &:hover{
+                        color: $orange-color;
+                    }
+                }
+            }
+        }
+
+        .nav-menu{
+            > ul{
+                > li{
+                    display: block;
+                    padding: 0px 0px;
+
+                    > a{
+                        padding: 11px 0px;
+                    }
+                }
+
+                ul{
+                    min-width: auto;
+                    position: static;
+                    background-color: transparent;
+                    border-radius: 0px;
+                    opacity: 1;
+                    visibility: visible;
+                    transform: none;
+                    padding: 0px 25px 6px 25px;
+                    display: none;
+                    transition: 0s;
+                }
+            }
+        }
+
+        .mega-menu{
+            .fa-angle-down{
+                display: none;
+            }
+
+            .opener{
+                display: block;
+            }
+        }
+
+        .menu-toggle{
+            display: block;
+        }
+
+        &.sticky-header{
+
+            .main-menu{
+                top: 60px;
+                height: calc(100vh - 60px);
+            }
+
+            .nav-menu{
+                > ul{
+                    > li{
+                        > a{
+                            padding: 11px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*------- Spacer Style -------*/
+    .pt-200 {
+        padding-top: 100px;
+    }
+    
+    .pb-200 {
+        padding-bottom: 100px;
+    }
+    
+    .ptb-200 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .pb-160 {
+        padding-bottom: 60px;
+    }
+
+    .pt-90{
+        padding-top: 50px;
+    }
+
+    .pb-70{
+        padding-bottom: 40px !important;
+    }
+
+    /*------- Button Style -------*/
+    .btn-medium{
+        font-size: 18px;
+        padding: 11px 34px;
+    }
+
+    .btn-large{
+        font-size: 18px;
+        padding: 11px 34px;
+    }
+
+    /*------- Headings Style -------*/
+    h1{
+        font-size: 64px;
+        line-height: 76px;
+    }
+
+    h2 {
+        font-size: 50px;
+        line-height: 62px;
+    }
+
+    h3{
+        font-size: 42px;
+        line-height: 54px;
+    }
+
+    /*------- Home Banner -------*/
+    .home-banner{
+        padding-top: 160px;
+        padding-bottom: 160px;
+
+        .banner-des{
+            padding: 18px 0px 30px 0px;
+            font-size: 20px;
+        }
+    }
+
+    /*------- Heading Part -------*/
+    .heading-part{
+        padding-bottom: 50px;
+
+        p{
+            padding-top: 15px;
+            font-size: 18px;
+        }
+    }
+
+    /*------- Our Plateform -------*/
+    .plateform-img{
+        max-width: 400px;
+        margin: 0px auto;
+    }
+
+    /*------- Roadmap -------*/
+    .roadmap{
+        .tab-content{
+            padding-top: 100px;
+        }
+    }
+
+    /*------- Our Blog -------*/
+    .blog-box{
+        .blog-detail{
+            .blog-title{
+                font-size: 22px;
+                line-height: 34px;
+                padding-bottom: 16px;
+            }
+        }
+    }
+
+    /*------- Newsletter -------*/
+    .newsletter-box{
+        padding: 65px 50px;
+
+        .newsletter-form{
+            padding-top: 35px;
+        }
+    }
+
+    /*------- Subpage Banner -------*/
+    .subpage-banner{
+        padding-top: 180px;
+        padding-bottom: 120px;
+    
+        .subpage-content{
+            .subpage-title{
+                font-size: 60px;
+                line-height: 80px;
+            }
+    
+            .subpage-des{
+                padding-top: 15px;
+            }
+        }
+    }
+
+    /*------- Our Team Page -------*/
+    .team-part-main{
+        padding-bottom: 50px;
+        
+        .team-box{
+            margin-bottom: 50px;
+        }
+    }
+
+    /*------- Contact Page -------*/
+    .contact-map-box{
+        iframe{
+            height: 350px;
+        }
+    }
+
+    /*------- 404 Banner -------*/
+    .error-page{
+        padding-top: 150px;
+    
+        .error-content{
+            .error-title{
+                font-size: 60px;
+                line-height: 80px;
+                padding-bottom: 30px;
+            }
+        }
+
+        .error-img{
+            margin-top: 55px;
+        }
+    }
+
+    /*------- Blog List Page -------*/
+    .blog-list-part{
+        .blog-list-box{
+            padding-bottom: 55px;
+
+            .blog-list-detail{
+                .blog-list-title{
+                    font-size: 30px;
+                    line-height: 48px;
+                }
+            }
+        }
+    }
+
+    /*------- Blog Detail Page -------*/
+    .blog-home{
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+
+    .blog-detail-part{
+        .blog-title{
+            h1{
+                font-size: 40px;
+                line-height: 58px;
+            }
+        }
+    }
+
+    /*------- Footer -------*/
+    .footer{
+        .bg-pattern{
+            .pattern-1{
+                top: -30px !important;
+            }
+        }
+    }
+
+    .footer-content{
+        .footer-logo{
+            p{
+                padding: 22px 0px 26px 0px;
+                max-width: 630px;
+            }
+        }
+
+        .footer-link{
+            .footer-title{
+                font-size: 20px;
+                line-height: 24px;
+                padding-bottom: 40px;
+
+                &::after{
+                    bottom: 20px;
+                }
+            }
+
+            ul{
+                li{
+                    font-size: 16px;
+                    padding-bottom: 16px;
+
+                    a{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}   

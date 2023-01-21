@@ -1,0 +1,159 @@
+
+
+@media (max-width: 991px) { 
+
+    /*------- General Style -------*/
+    .mb-50{
+        margin-bottom: 40px;
+    }
+
+    /*------- Pattern Style -------*/
+    .pattern-1,.pattern-2{
+        max-width: 120px;
+
+        &.w-100{
+            max-width: 100%;
+        }
+
+        &.line-pattern{
+            max-width: 320px;
+        }
+    }
+
+    /*------- Roadmap -------*/
+    .roadmap{
+        .tab-content{
+            padding-top: 90px;
+        }
+
+        .tab-link{
+            text-align: left !important;
+            padding-top: 36px;
+        }
+    }
+
+    /*------- Token Matrics -------*/
+    .token-matrics{
+        .token-detail{
+            .token-title{
+                padding-bottom: 26px;
+            }
+        }
+    }
+
+    /*------- Testimonial -------*/
+    .testimonial-content{
+        .testimonial-box{
+            padding: 40px;
+
+            .testimonial-detail{
+                p{
+                    padding-top: 30px;
+                }
+            }
+
+            .testimonial-author{
+                padding-top: 40px;
+            }
+        }
+    }
+
+    /*------- Brand Section -------*/
+    .brand-logo-part {
+        padding: 0px 30px;
+    }
+
+    /*------- Roadmap Page -------*/
+    .roadmap-main{
+        .roadmap-content-part{
+            .roadmap-box{
+                .roadmap-detail{
+                    ul{
+                        li{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*------- Token Sale Page -------*/
+    .token-distribution{
+        .token-graph-box{
+            max-width: 400px;
+            .token-graph{
+                width: 100%;
+                padding-bottom: 30px;
+            }
+
+            .token-graph-detail{
+                padding-left: 0px;
+                width: 100%;
+                max-width: 210px;
+                margin: auto;
+            }
+        }
+    }
+
+    .token-sale-stages{
+        .token-stages{
+            .stage-box{
+                .stage-count{
+                    padding-bottom: 26px;
+                }
+                .token-per{
+                    font-size: 52px;
+                    line-height: 62px;
+                }
+            }
+        }
+    }
+
+    /*------- Blog List Page -------*/
+    .blog-list-part,.blog-sidebar{
+        max-width: 767px;
+        margin: 0px auto;
+    }
+
+    .blog-sidebar{
+        margin-top: 50px !important;
+    }
+
+    /*------- Blog Detail Page -------*/
+    .blog-detail-title{
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 30px;
+    }
+
+    .blog-detail-part{
+        .blog-comment-post{
+            .blog-comment-box{
+                &:nth-child(2n + 1){
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+
+    /*------- Footer -------*/
+    .footer-content {
+        padding-bottom: 45px;
+
+        .footer-link {
+            padding-top: 40px;
+        }
+    }
+
+    .copyright{
+        .copyright-text{
+            text-align: center;
+            padding-bottom: 12px;
+        }
+
+        .copyright-link{
+            text-align: center !important;
+        }
+    }
+}

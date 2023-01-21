@@ -1,0 +1,698 @@
+
+@media (max-width: 767px) { 
+
+    /*------- General Style -------*/
+    .container{
+       padding: 0px 20px;
+    }
+
+    .owl-carousel {
+        .owl-nav{
+            padding-top: 35px;
+        }
+    }
+
+    .order-sm_1{
+        order: 1;
+    }
+
+    .order-sm_2{
+        order: 2;
+    }
+    
+    /*------- Spacer Style -------*/
+    .pt-200 {
+        padding-top: 70px;
+    }
+    
+    .pb-200 {
+        padding-bottom: 70px;
+    }
+    
+    .ptb-200 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .pb-160 {
+        padding-bottom: 30px;
+    }
+
+    .pt-90{
+        padding-top: 40px;
+    }
+
+    .pb-50 {
+        padding-bottom: 40px !important;
+    }
+
+    .mb-sm-40{
+        margin-bottom: 40px;
+    }
+
+    .mb-sm-30{
+        margin-bottom: 30px;
+    }
+
+    /*------- Form Style -------*/
+    .form-group{
+        margin-bottom: 30px;
+    }
+    
+    .form-control{
+        font-size: 16px;
+        padding: 15px 20px;
+        min-height: unset;
+    }
+
+    /*------- Modal Style -------*/
+    .modal{
+        .modal-dialog{
+            width: calc(100% - 40px);
+
+            .modal-content{
+                .modal-close{
+                    right: 4px;
+                    top: -1px;
+
+                    .btn-close{
+                        font-size: 12px;
+                    }
+                }
+
+                .modal-body{
+                    padding: 22px;
+
+                    iframe{
+                        height: 310px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*------- Button Style -------*/
+    .btn-medium{
+        font-size: 16px;
+        padding: 9px 28px;
+    }
+
+    .btn-large{
+        font-size: 16px;
+        padding: 9px 28px;
+    }
+
+    /*------- Headings Style -------*/
+    h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    h3{
+        font-size: 34px;
+        line-height: 46px;
+    }
+
+    /*------- Header Style -------*/
+    .header{
+        .logo{
+            img{
+                max-width: 230px;
+            }
+        }
+
+        .main-menu{
+            top: 66px;
+            height: calc(100vh - 66px);
+            padding: 10px 20px 40px 20px;
+        }
+    }
+
+    .menu-toggle{
+        right: 20px;
+    }
+
+    /*------- Home Banner -------*/
+    .home-banner{
+        padding-top: 140px;
+        padding-bottom: 130px;
+
+        .banner-des{
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+
+    /*------- Heading Part -------*/
+    .heading-part{
+        padding-bottom: 40px;
+
+        p{
+            font-size: 16px;
+            line-height: 28px;
+        }
+    }
+
+    /*------- Roadmap -------*/
+    .roadmap{
+        .tab-content{
+            padding-top: 80px;
+        }
+
+        .tab-link{
+            margin: 0px -4px;
+
+            li{
+                padding: 0px 4px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    /*------- Testimonial -------*/
+    .testimonial-content{
+        padding: 0px 20px;
+    }
+
+    /*------- Brand Section -------*/
+    .trusted-brand{
+        .heading-part {
+            padding-bottom: 24px;
+        }
+    }
+
+    .brand-logo-part{
+        padding: 0px 20px;
+    }
+
+    /*------- Newsletter -------*/
+    .newsletter-box{
+        padding: 50px 30px;
+
+        .newsletter-title{
+            h3{
+                font-size: 26px;
+                line-height: 36px;
+            }
+        }
+
+        .newsletter-form{
+            padding-top: 24px;
+
+            form{
+                flex-direction: column;
+
+                .form-btn{
+                    margin-left: 0px;
+                    margin-top: 24px;
+
+                    .btn-large{
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        padding-left: 33px;
+                        padding-right: 33px;
+                        min-height: unset;
+                    }
+                }
+            }
+        }
+    }
+
+    /*------- Subpage Banner -------*/
+    .subpage-banner{
+        padding-top: 150px;
+        padding-bottom: 90px;
+    
+        .subpage-content{
+            .subpage-title{
+                font-size: 40px;
+                line-height: 50px;
+            }
+    
+            .subpage-des{
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    /*------- About Page -------*/
+    .video-box{
+        .video-icon{
+            &::after{
+                width: 80px;
+                height: 80px;
+                line-height: 80px;
+            }
+
+            i{
+                font-size: 28px;
+            }
+        }
+    }
+
+    /*------- Feature Page -------*/
+    .perfact-solution{
+        .perfact-solution-feature{
+            margin: 0px -5px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 40px;
+
+            .feature-box{
+                padding-bottom: 0px;
+                padding-left: 5px;
+                padding-right: 5px;
+                width: 50%;
+
+                .feature-box-icon{
+                    width: 70px;
+                    height: 70px;
+
+                    img{
+                        max-width: 32px;
+                        margin: 0px auto;
+                    }
+                }
+
+                .feature-box-content{
+                    .count{
+                        font-size: 24px;
+                        line-height: 32px;
+                    }
+                    
+                    span{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    /*------- Our Team Page -------*/
+    .team-part-main{
+        padding-bottom: 20px;
+    }
+
+    /*------- Faq Page -------*/
+    .faq-tabing{
+        .tab-link{
+            max-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 20px;
+    
+            li{
+                padding: 0px 10px;
+                padding-bottom: 20px;
+
+                a{
+                    min-width: 145px;
+                }
+            }
+        }
+    }
+
+    .faq-content{
+        .faq-box{
+            .faq-title{
+                font-size: 18px;
+            }
+        }
+    }
+
+    /*------- Roadmap Page -------*/
+    .roadmap-main{
+        .roadmap-content-part{
+            .roadmap-box{
+                .roadmap-year{
+                    width: 85px;
+
+                    .roadmap-arrow{
+                        height: calc(100% - 148px);
+                        border-width: 1px;
+                        width: 1px;
+                    }
+
+                    .roadmap-icon{
+                        width: 70px;
+                        height: 70px;
+
+                        img{
+                            max-width: 38px;
+                        }
+                    }
+
+                    .map-year{
+                        span{
+                            font-size: 20px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+                .roadmap-detail{
+                    width: calc(100% - 85px);
+                    padding-left: 30px;
+                    padding-top: 92px;
+
+                    .roadmap-title{
+                        font-size: 20px;
+                        line-height: 30px;
+                        padding-bottom: 14px;
+                    }
+
+                    p{
+                        font-size: 14px;
+                        line-height: 26px;
+                    }
+
+                    ul{
+                        max-width: 100%;
+
+                        li{
+                            img{
+                                max-width: 16px;
+                            }
+                            span{
+                                font-size: 14px;
+                                line-height: 26px;
+                                padding-left: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*------- Token Sale Page -------*/
+    .token-sale-main{
+        .token-sale-counter{
+            padding: 50px 30px; 
+            max-width: 500px;
+
+            .coins-counter-loop{
+                padding-bottom: 26px;
+
+                li{
+                    padding: 0px 12px;
+
+                    &::after,&::before{
+                        right: -2px;
+                        width: 3px;
+                        height: 3px;
+                    }
+
+                    &::after{
+                        top: 19px;
+                    }
+    
+                    &::before{
+                        top: 9px;
+                    }
+
+                    span{
+                        font-size: 26px;
+                        line-height: 30px;
+                    }
+    
+                    label{
+                        font-size: 12px;
+                        line-height: 18px;
+                        padding-top: 6px;
+                    }
+                }
+            }
+
+            .coin-progress-box{
+                .token-slide-info{
+                    span{
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .buy-token{
+                padding-top: 30px;
+            }
+        }
+
+        .token-info{
+            .token-info-box{
+                max-width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    /*------- 404 Banner -------*/
+    .error-page{
+        .error-content{
+            .error-title{
+                font-size: 50px;
+                line-height: 60px;
+                padding-bottom: 26px;
+            }
+        }
+
+        .error-img{
+            margin-top: 45px;
+
+            .error-pattern{
+                max-width: 23px;
+            }
+
+            .error-pattern-2{
+                top: 10%;
+                left: 20%;
+            }
+
+            .bottom-line{
+                bottom: 7px;
+                width: 94px;
+                height: 4px;
+            }
+        }
+
+        .bg-pattern{
+            .line-pattern{
+                max-width: 220px;
+            }
+        }
+    }
+
+    /*------- Blog List Page -------*/
+    .blog-list-part{
+        .blog-list-box{
+            padding-bottom: 45px;
+
+            .blog-list-detail{
+                padding-top: 35px;
+
+                .blog-meta{
+                    li{
+                        font-size: 16px;
+                    }
+                }
+
+                .blog-list-title{
+                    font-size: 24px;
+                    line-height: 38px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    } 
+
+    .blog-sidebar{
+        .blog-news{
+            .blog-news-box{
+                .blog-news-detail{
+                    .news-title{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .blog-contact{
+            padding: 45px 35px;
+        }
+    }
+
+    /*------- Blog Detail Page -------*/
+    .blog-home{
+        padding-bottom: 40px;
+    }
+
+    .blog-detail-title {
+        font-size: 28px;
+        line-height: 34px;
+        padding-bottom: 26px;
+    }
+
+    .blog-detail-part{
+        .blog-title{
+            ul{
+                li{
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+            h1{
+                font-size: 28px;
+                line-height: 42px;
+            }
+        }
+
+        .blog-detail-content{
+            h2{
+                font-size: 24px;
+                line-height: 36px;
+                padding-bottom: 14px;
+            }
+
+            p{
+                font-size: 15px;
+                line-height: 28px;
+                margin-bottom: 20px;
+            }
+
+            .quote{
+                .quote-img{
+                    width: 55px;
+                }
+
+                .quote-detail{
+                    width: calc(100% - 55px);
+                    padding-left: 30px;
+
+                    blockquote{
+                        font-size: 18px;
+                        line-height: 32px;
+                    }
+                }
+
+                .quote-author{
+                    margin-top: 20px;
+
+                    span{
+                        font-size: 18px;
+                        line-height: 24px;
+
+                        &::after{
+                            left: -88px;
+                            width: 70px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .blog-detail-tag-social{
+            flex-direction: column;
+            align-items: flex-start;
+
+            .blog-detail-social{
+                width: 100%;
+
+                .share-btn{
+                    display: none;
+                }
+
+                .social-wpapper{
+                    position: static;
+                    transform: none;
+                    padding-right: 0px;
+                    visibility: visible;
+                    opacity: 1;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+                }
+
+                .social-icon{
+                    justify-content: center !important;
+                }
+            }
+
+            .blog-detail-tag{
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .blog-comment-box{
+            .blog-comment-img{
+                width: 70px;
+            }
+
+            .blog-comment-detail{
+                width: calc(100% - 70px);
+                padding-left: 30px;
+
+                .comment-reply{
+                    position: static;
+                    margin-top: 24px;
+                }
+            }
+        }
+
+        .blog-comment-post-singel{
+            padding: 40px 26px;
+
+            .blog-comment-box{
+                flex-direction: column;
+
+                .blog-comment-img{
+                    width: 100%;
+                    text-align: center;
+                    padding-bottom: 26px;
+                }
+
+                .blog-comment-detail{
+                    width: 100%;
+                    padding-left: 0px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .blog-comment-post{
+            .blog-comment-box{
+                padding-bottom: 40px;
+            }
+        }
+    }
+
+    /*------- Sign in Page -------*/
+    .sign-in-form{
+        .form-box{
+            .login-btn-g{
+                .form-check{
+                    label{
+                        font-size: 14px;
+                    }
+                }
+                .forget-password{
+                    a{
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .sign-in-text{
+                a{
+                    display: block;
+                }
+            }
+        }
+    }
+}
